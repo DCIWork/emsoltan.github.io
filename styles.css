@@ -172,7 +172,9 @@
     cursor: context-menu;
     box-shadow: 0 40px 55px 20px #22223b;
     border: 2px dashed var(--bg-color);
-  margin-left: 250px;}
+  margin-left: 250px;
+/* margin-top: 10rem */
+}
   
   em {
     font-size: 32px;
