@@ -169,8 +169,7 @@
     background-color: var(--con-color);
     color: var(--bg-color);
     max-width: 60vw;
-    padding-right: 1.5em;
-
+    padding: 1.5em;
     font-weight: bold;
     border-radius: 20px 85px;
     cursor: context-menu;
