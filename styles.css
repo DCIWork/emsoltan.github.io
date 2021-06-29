@@ -1,8 +1,9 @@
 :root {
-    /* --bg-color: #22223b; */
     /* --con-color: #22223b; */
     --bg-color: #faf9f9;
     --con-color: #40916c;
+        --con-color2: #22223b;
+
   }
   * {
     box-sizing: border-box;
@@ -121,9 +122,10 @@
     padding: 0.5em;
     border: 2px dashed var(--bg-color);
     border-radius: 10px 25px;
-    box-shadow: 0 20px 35px -20px var(--con-color);
-    
-  }
+    box-shadow: 0 20px 35px -20px var(--con-color2);
+
+    }
+  
   
   section {
     display: flex;
@@ -167,17 +169,19 @@
     background-color: var(--con-color);
     color: var(--bg-color);
     max-width: 60vw;
+    padding-right: 1.5em;
+
     font-weight: bold;
-    padding: .5em;
     border-radius: 20px 85px;
     cursor: context-menu;
-    box-shadow: 0 40px 55px 20px #22223b;
+    box-shadow: 0 40px 55px 20px var(--con-color2);
     border: 2px dashed var(--bg-color);
   margin-left: 250px;
   margin-top: 10rem;
 }
 section:hover {
     margin-top: 5rem;
+
 }
   
   em {
@@ -189,7 +193,7 @@ section:hover {
     float: right;
     margin-right: 1.5em;
     border-radius: 25px;
-    box-shadow: 0 20px 35px -20px #22223b;
+    box-shadow: 0 20px 35px -20px var(--con-color2);
   }
   .skill-list {
     display: flex;
@@ -218,6 +222,7 @@ section:hover {
     em {
       font-size: 20px;
     }
+    
     .hello,
     .about,
     .skills,
@@ -273,4 +278,3 @@ section:hover {
       max-width: 200px;
     }
   }
-  
