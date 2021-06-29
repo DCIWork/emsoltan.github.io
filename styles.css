@@ -102,7 +102,7 @@
     }
   }
   i {
-    margin-right: 0.25em;
+    margin-right: 0.5em;
   }
   
   a {
@@ -201,7 +201,7 @@
   .skill-title {
     display: flex;
     flex-direction: column;
-    margin-right: 0.5em;
+    margin: 0.5em;
   }
   @media (max-width: 576px) {
     .page {
