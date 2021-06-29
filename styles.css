@@ -163,17 +163,21 @@
     transition-property: background-color padding color font-weight width;
     transition-timing-function: linear;
     transition-duration: 0.5s;
+    transform: scale(1.1);
     background-color: var(--con-color);
     color: var(--bg-color);
     max-width: 60vw;
     font-weight: bold;
-    padding: 0.5em;
+    padding: .5em;
     border-radius: 20px 85px;
     cursor: context-menu;
     box-shadow: 0 40px 55px 20px #22223b;
     border: 2px dashed var(--bg-color);
   margin-left: 250px;
-/* margin-top: 10rem */
+  margin-top: 10rem;
+}
+section:hover {
+    margin-top: 5rem;
 }
   
   em {
